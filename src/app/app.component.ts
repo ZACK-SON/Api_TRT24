@@ -2,9 +2,14 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: `
+
+    <app-pai-consulta></app-pai-consulta>
+    <router-outlet></router-outlet>
+
+  `,
+
 })
 export class AppComponent {
-  title = 'form';
+  public title:string = 'Bem vindo!';
 }

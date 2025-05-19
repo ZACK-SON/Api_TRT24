@@ -1,0 +1,35 @@
+.selectButtonConteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* alinha os elementos filhos com espaçamentos entre as colunas*/
+    //margin-left: 10px;
+    .spaceBetween{
+        margin-left: 10px;
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; /* alinha os elementos filhos com espaçamentos entre as colunas*/
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.container p{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px; 
+ 
+}
+
+.logo-trt24{
+    width: "324";
+    height: "80";
+    display: block; 
+    margin: 0 0 0 0 ; 
+}

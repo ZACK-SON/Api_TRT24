@@ -1,0 +1,14 @@
+<!-- <p>filho - select ano</p> -->
+
+<mat-form-field>
+
+    <mat-label>Selecione o ano</mat-label>
+
+        <mat-select disableRipple (selectionChange)="anoSelecionado($event)">
+            <mat-option [value]="doisAnosAtras">{{doisAnosAtras}}</mat-option>
+            <mat-option [value]="anoAnterior">{{anoAnterior}}</mat-option>
+            <mat-option [value]="anoAtual">{{anoAtual}}</mat-option>
+        </mat-select>
+
+
+</mat-form-field>

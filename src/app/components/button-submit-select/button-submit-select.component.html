@@ -1,0 +1,8 @@
+<!-- <p>filho - Botão Enviar Seleção</p> -->
+<div class="button-row">
+    <button mat-flat-button (click)="botaoClicado()">Consultar</button>
+</div>
+
+<ng-template [ngIf]="getConsultaEfetuada()">
+    <mat-spinner ></mat-spinner>
+</ng-template>
